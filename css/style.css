@@ -1,0 +1,170 @@
+/* General Body Styles */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+/* Sticky Navigation Bar */
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #282828;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px #000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #bb86fc; /* A nice purple for hover */
+}
+
+/* Main Content Area */
+main {
+    padding: 20px;
+    overflow: auto; /* To contain floats */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #bb86fc;
+}
+
+/* Links */
+a {
+    color: #03dac6; /* A teal color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table for 2-column layout on content pages */
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-table td {
+    width: 50%;
+    padding: 15px;
+    vertical-align: top;
+    border: 1px solid #333;
+}
+
+/* Sequential Navigation Buttons */
+.nav-buttons {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.nav-buttons a {
+    background-color: #bb86fc;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+.nav-buttons a:hover {
+    background-color: #3700b3;
+    color: #e0e0e0;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+/* Other element styles */
+pre {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto;
+    border: 1px solid #333;
+}
+
+img, video {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+}
+
+mark {
+    background-color: #bb86fc;
+    color: #121212;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+del {
+    text-decoration: line-through;
+    color: #888;
+}
+
+u {
+    text-decoration: underline;
+}
+
+i {
+    font-style: italic;
+}
+
+b {
+    font-weight: bold;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
